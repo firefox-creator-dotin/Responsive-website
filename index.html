@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="icon" href="images/ChatGPT Image Jun 9, 2026, 04_32_37 PM.png">
+  <title>Tasty Foods</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="index.html">Tasty Foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#location" tabindex="-1" aria-disabled="true">Locations</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="home" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/carousal1.jpg" class=" slide d-block w-100" alt="Non-veg thali meals">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-dark">Non-veg Thali</h2>
+        <p class="text-dark">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousal2.jpg" class="slide d-block w-100" alt="North indian style thali">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-dark">North Indian Non-veg items</h2>
+        <p class="text-dark">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousal3.jpg" class="slide d-block w-100" alt="veg thali meals">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Veg Thali</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container" id="order">
+  <h1 class="text-center">Order your foods now!..</h1>
+  <div class="row">
+     <div class="col-12 col-md-4 mb-4">
+       <div class="card text-center mx-auto" style="width: 18rem;height: 29rem;">
+          <img src="images/biryani.jpg" class="card-img-top" alt="chicken Biriyani">
+          <div class="card-body">
+              <h5 class="card-title">Chicken Biryani</h5>
+              <p class="card-text">Taste the Real Malabar Chicken Biriyani</p>
+              <h5 class="card-tittle text-danger"> Rs.199</h5>
+              <a href="#" class="btn btn-primary">Order now</a>
+          </div>
+       </div>
+     </div>
+     <div class="col-12 col-md-4 mb-4">
+        <div class="card text-center mx-auto" style="width: 18rem; height: 29rem;">
+           <img src="images/beef.jpg" class="card-img-top mt-5" alt="Beef fry">
+           <div class="card-body">
+              <h5 class="card-title">Beef fry</h5>
+              <p class="card-text">Tasty BDF</p>
+              <h5 class="card-tittle text-danger"> Rs.169</h5>
+              <a href="#" class="btn btn-primary">Order now</a>
+           </div>
+         </div>
+     </div>
+     <div class="col-12 col-md-4 mb-4">
+        <div class="card text-center mx-auto" style="width: 18rem;height: 29rem;">
+           <img src="images/dosa.jpg" class="card-img-top" alt="Dosa">
+           <div class="card-body">
+             <h5 class="card-title">Dosa</h5>
+             <p class="card-text">Masala dosa</p>
+             <h5 class="card-tittle text-danger"> Rs.99</h5>
+             <a href="#" class="btn btn-primary">Order now</a>
+           </div>
+        </div>
+     </div>
+  </div>
+   <div class="row my-3">
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card text-center mx-auto" style="width: 18rem;height: 29rem;">
+           <img src="images/sambar.jpg" class="card-img-top" alt="Sambar">
+           <div class="card-body">
+             <h5 class="card-title">Sambar</h5>
+             <p class="card-text">Masala dosa</p>
+             <h5 class="card-tittle text-danger"> Rs.99</h5>
+             <a href="#" class="btn btn-primary">Order now</a>
+           </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card text-center mx-auto" style="width: 18rem;height: 29rem;">
+           <img src="images/idli.jpg" class="card-img-top mt-5" alt="iddley">
+           <div class="card-body">
+             <h5 class="card-title">iddley</h5>
+             <p class="card-text">Masala dosa</p>
+             <h5 class="card-tittle text-danger"> Rs.99</h5>
+             <a href="#" class="btn btn-primary">Order now</a>
+           </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card text-center mx-auto" style="width: 18rem;height: 29rem;">
+           <img src="images/fish.jpg" class="card-img-top mt-5" alt="Fish curry">
+           <div class="card-body">
+             <h5 class="card-title">Fish curry</h5>
+             <p class="card-text">Fresh fish curry</p>
+             <h5 class="card-tittle text-danger"> Rs.199</h5>
+             <a href="#" class="btn btn-primary">Order now</a>
+           </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-warning d-flex " id="location">
+  <div class="col-6 p-5">
+    <h2 class="text">Contact Us</h2>
+    <h2>Tasty Foods Restaurant</h2>
+    <h4>Calicut</h4>
+    <h4>Kerala</h4>
+    <p>Tel: 567389876</p>
+    <p>Email: ahshjkajh@gmail.com</p>
+    <p>Website: www.tastyfoods.com</p>
+
+  </div>
+  <div class="col-6 p-5">
+    <h2 class="text-center text">About Us</h2>
+    <p class="fs-6">Founded with a passion for great food and warm hospitality, our restaurant has been serving delicious meals made from fresh, high-quality ingredients. Over the years, we have built a reputation for exceptional taste, friendly service, and a welcoming atmosphere, making us a favorite destination for families, friends, and food lovers alike.</p>
+  </div>
+</div>
+
+  
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
